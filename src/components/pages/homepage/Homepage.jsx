@@ -9,7 +9,7 @@ function Homepage() {
       <Card>
         <Card.Img src={header_img} alt="Header Image"/>
         <Card.ImgOverlay>
-          <Card.Title>Langevine Heating and Venting</Card.Title>
+          <Card.Title>Langevin Heating and Venting</Card.Title>
           <Card.Text>
             For all your heating and venting needs!
           </Card.Text>
