@@ -3,11 +3,11 @@ import { Container } from 'react-bootstrap';
 
 function AboutUs() {
   return(
-    <Container>
+    <Container className="text-secondary mt-4">
       <div className="text-secondary d-flex flex-column justify-content-center align-items-center">
-        <h2 className="text-center">
-          This is the about us
-        </h2>
+        <h3 className="text-center">
+          About Us
+        </h3>
       </div>
     </Container>
   )

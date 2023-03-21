@@ -3,11 +3,11 @@ import { Container } from 'react-bootstrap';
 
 function ContactUs() {
   return(
-    <Container>
+    <Container className="text-secondary mt-4">
       <div className="text-secondary d-flex flex-column justify-content-center align-items-center">
-        <h2 className="text-center">
+        <h3 className="text-center">
           This is the contact us page
-        </h2>
+        </h3>
       </div>
     </Container>
   )
