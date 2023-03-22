@@ -9,7 +9,7 @@ function Homepage() {
       <Card>
         <Card.Img src={header_img} alt="Header Image"/>
         <Card.ImgOverlay>
-          <Card.Title>Langevin Heating and Venting</Card.Title>
+          <Card.Title>Langevin HVAC</Card.Title>
           <Card.Text>
             For all your heating and venting needs!
           </Card.Text>
@@ -17,7 +17,7 @@ function Homepage() {
       </Card>
       <Container className="mt-4">
         <h3 className="text-center">
-          We proudly provide heating and venting services to the Twin Cities area
+          We proudly provide HVAC services to the Twin Cities area
         </h3>
       </Container>
     </Container>

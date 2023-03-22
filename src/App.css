@@ -1,6 +1,6 @@
 :root {
-  --secondaryTextColor: #6c757d;
-  --linkHoverColor: #322e18;
+  /* --secondaryTextColor: #6c757d;
+  --linkHoverColor: #322e18; */
 
   --background: #587291;
   --otherText: #2F97C1;
@@ -41,10 +41,8 @@
   color: var(--otherText);
 }
 
-#AreasServedList {
-  columns: 2;
-  -webkit-columns: 2;
-  -moz-columns: 2;
+.Card {
+  background-color: var(--otherText);
 }
 
 #ContactUsList {

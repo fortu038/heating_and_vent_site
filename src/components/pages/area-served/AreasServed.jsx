@@ -1,40 +1,30 @@
 import React from 'react';
-import { Container, Card } from 'react-bootstrap';
+import { Container, Row, Col } from 'react-bootstrap';
 
 import ContactUsForm from '../contact-us/ContactUsForm';
 
 function AreasServed() {
   return(
     <Container className="my-4">
-      <h3>Cities and Areas We Service:</h3>
-      <ul id="AreasServedList">
-        <li>Lindstrom</li>
-        <li>Stacy</li>
-        <li>Forest Lake</li>
-        <li>Chisago City</li>
-        <li>Harris</li>
-        <li>St Croix Falls</li>
-      </ul>
-
-      <br />
-      <br />
-      
-      <Container className="w-50">
-        <Card border="secondary">
-          <Card.Header>Not Sure If You're In Our Service Area?</Card.Header>
-          <Card.Body>
-            <Card.Text>
-              Contact us if you're not sure and we'll get back to you.
-            </Card.Text>
-          </Card.Body>
-        </Card>
+      <Container>
+        <Row>
+          <Col className="d-flex justify-content-center">
+            <h3>Cities and Areas We Service:</h3>
+          </Col>
+        </Row>
+        <Row>
+          <Col className="d-flex justify-content-center">
+            <ul>
+              <li>Lindstrom</li>
+              <li>Stacy</li>
+              <li>Forest Lake</li>
+              <li>Chisago City</li>
+              <li>Harris</li>
+              <li>St Croix Falls</li>
+            </ul>
+          </Col>
+        </Row>
       </Container>
-      
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
       
       <ContactUsForm />
     </Container>
