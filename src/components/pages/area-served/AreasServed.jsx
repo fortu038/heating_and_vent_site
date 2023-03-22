@@ -1,11 +1,13 @@
 import React from 'react';
 import { Container, Card } from 'react-bootstrap';
 
+import ContactUsForm from '../contact-us/ContactUsForm';
+
 function AreasServed() {
   return(
-    <Container className="text-secondary mt-4">
+    <Container className="my-4">
       <h3>Cities and Areas We Service:</h3>
-      <ul id="areas-served-list">
+      <ul id="AreasServedList">
         <li>Lindstrom</li>
         <li>Stacy</li>
         <li>Forest Lake</li>
@@ -17,14 +19,24 @@ function AreasServed() {
       <br />
       <br />
       
-      <Card border="secondary">
-        <Card.Header>Not Sure If You're In Our Service Area?</Card.Header>
-        <Card.Body>
-          <Card.Text>
-            Contact us if you're not sure and we'll get back to you.
-          </Card.Text>
-        </Card.Body>
-      </Card>
+      <Container className="w-50">
+        <Card border="secondary">
+          <Card.Header>Not Sure If You're In Our Service Area?</Card.Header>
+          <Card.Body>
+            <Card.Text>
+              Contact us if you're not sure and we'll get back to you.
+            </Card.Text>
+          </Card.Body>
+        </Card>
+      </Container>
+      
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      
+      <ContactUsForm />
     </Container>
   )
 }

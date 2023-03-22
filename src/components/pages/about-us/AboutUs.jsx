@@ -1,12 +1,14 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 
+import ContactUsForm from '../contact-us/ContactUsForm';
+
 const worker_img = require("../../../assets/images/worker_placeholder.jpg");
 const job_img = require("../../../assets/images/card_placeholder_image.jpg");
 
 function AboutUs() {
   return(
-    <Container className="text-secondary mt-4">
+    <Container className="my-4">
       <Row>
         <Col>
           <h3 className="text-center">
@@ -32,17 +34,14 @@ function AboutUs() {
           <h5>We work not just with heating, but also with ventilation!</h5>
         </Col>
       </Row>
-      {/* <div className="text-secondary d-flex flex-column justify-content-center align-items-center">
-        <h3 className="text-center">
-          About Us
-        </h3>
-      </div>
-      <div className="d-flex justify-content-center">
-        <img src={worker_img} alt="The founder of Lagevin Heating and Venting." />
-      </div>
-      <div className="d-flex justify-content-center">
-        <h5>Our founder and employees work hard to bring the community quality heating and venting.</h5>
-      </div> */}
+      
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      
+      <ContactUsForm />
     </Container>
   )
 }

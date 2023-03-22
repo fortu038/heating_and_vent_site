@@ -7,29 +7,41 @@ const site_name = "Langevin Heating And Venting";
 
 function Navigation(props) {
   return(
-    <>
-      <Navbar sticky="top" collapseOnSelect expand="lg" className="bg-light">
+    <Container>
+      <Navbar sticky="top" collapseOnSelect expand="lg">
         <Container className="text-center">
-          <Navbar.Brand className="text-secondary">
-            {site_name}
+          <Navbar.Brand>
+            <h1>
+              {site_name}
+            </h1>
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
-              <Nav className="flex-grow-1 justify-content-evenly">
+              <Nav className="flex-grow-1 justify-content-evenly align-items-center">
                 <Nav.Link as={Link} to="">
-                  Home
+                  <h3>
+                    Home
+                  </h3>
                 </Nav.Link>
                 <Nav.Link as={Link} to="about-us">
-                  About Us
+                  <h3>
+                    About Us
+                  </h3>
                 </Nav.Link>
                 <Nav.Link as={Link} to="our-services">
-                  Our Services
+                  <h3>
+                    Our Services
+                  </h3>
                 </Nav.Link>
                 <Nav.Link as={Link} to="areas-served">
-                  Areas Served
+                  <h3>
+                    Areas Served
+                  </h3>
                 </Nav.Link>
                 <Nav.Link as={Link} to="contact-us">
-                  Contact Us
+                  <h3>
+                    Contact Us
+                  </h3>
                 </Nav.Link>
               </Nav>
           </Navbar.Collapse>
@@ -37,7 +49,7 @@ function Navigation(props) {
       </Navbar>
 
       <Outlet />
-    </>
+    </Container>
   )
 }
 

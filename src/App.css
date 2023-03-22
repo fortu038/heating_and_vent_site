@@ -1,44 +1,52 @@
-.App {
-  text-align: center;
+:root {
+  --secondaryTextColor: #6c757d;
+  --linkHoverColor: #322e18;
+
+  --background: #587291;
+  --otherText: #2F97C1;
+  --text: #090b0e;
+  --secondaryText: #1CCAD8;
+  --borderHighlight: #15E6CD;
+  --generalHighlight: #0CF574;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+* {
+  background-color: var(--background);
+  color: var(--text);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* Nav {
+  border: 2px solid var(--text);
+  border-radius: 10px
+} */
+
+.ButtonCustom {
+  background-color: var(--text);
+  color: var(--background);
+  border: none;
+  border-radius: 5px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.ButtonCustom:hover {
+  background-color: var(--otherText);
+  color: var(--text);
 }
 
-.App-link {
-  color: #61dafb;
+.HoverLink {
+  text-decoration: none;
+  color: var(--text);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.HoverLink:hover {
+  color: var(--otherText);
 }
 
-#areas-served-list {
+#AreasServedList {
   columns: 2;
   -webkit-columns: 2;
   -moz-columns: 2;
+}
+
+#ContactUsList {
+  list-style-type: none;
 }
