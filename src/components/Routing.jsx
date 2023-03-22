@@ -8,7 +8,7 @@ import AreasServed from "./pages/area-served/AreasServed";
 import ContactUs from "./pages/contact-us/ContactUs";
 import OurServices from "./pages/our-services/OurServices";
 
-const site_name = "Langevin Heating And Venting";
+const site_name = "Langevin HVAC";
 const url_name = site_name.replace(/\s/g, "");
 
 function Routing(props) {

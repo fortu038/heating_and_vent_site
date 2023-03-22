@@ -45,6 +45,10 @@
   background-color: var(--otherText);
 }
 
+.TransparentBackground {
+  background-color: transparent;
+}
+
 #ContactUsList {
   list-style-type: none;
 }
