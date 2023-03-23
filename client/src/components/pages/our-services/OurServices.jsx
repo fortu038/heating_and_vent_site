@@ -12,44 +12,44 @@ function OurServices() {
     <Container className="my-4">
       <Row xs={1} md={2} className="g-4">
         <Col>
-          <Card bg="dark">
+          <Card bg="info">
             <Card.Img src={hot_water_heater_img} alt="An installed hot water heater" />
-            <Card.Body>
-              <Card.Title>Hot Water Heater Install</Card.Title>
-              <Card.Text>
+            <Card.Body className="CardBackground">
+              <Card.Title className="CardBackground">Hot Water Heater Install</Card.Title>
+              <Card.Text className="CardBackground">
                 We install hot water heaters
               </Card.Text>
             </Card.Body>
           </Card>
         </Col>
         <Col>
-          <Card bg="dark">
+          <Card bg="info">
             <Card.Img src={card_img} alt="Card image" />
-            <Card.Body>
-              <Card.Title>This is one of our services</Card.Title>
-              <Card.Text>
+            <Card.Body className="CardBackground">
+              <Card.Title className="CardBackground">This is one of our services</Card.Title>
+              <Card.Text className="CardBackground">
                 Service description
               </Card.Text>
             </Card.Body>
           </Card>
         </Col>
         <Col>
-          <Card bg="dark">
+          <Card bg="info">
             <Card.Img src={card_img} alt="Card image" />
-            <Card.Body>
-              <Card.Title>This is one of our services</Card.Title>
-              <Card.Text>
+            <Card.Body className="CardBackground">
+              <Card.Title className="CardBackground">This is one of our services</Card.Title>
+              <Card.Text className="CardBackground">
                 Service description
               </Card.Text>
             </Card.Body>
           </Card>
         </Col>
         <Col>
-          <Card bg="dark">
+          <Card bg="info">
             <Card.Img src={card_img} alt="Card image" />
-            <Card.Body>
-              <Card.Title>This is one of our services</Card.Title>
-              <Card.Text>
+            <Card.Body className="CardBackground">
+              <Card.Title className="CardBackground">This is one of our services</Card.Title>
+              <Card.Text className="CardBackground">
                 Service description
               </Card.Text>
             </Card.Body>

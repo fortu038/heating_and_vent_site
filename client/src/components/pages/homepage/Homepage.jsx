@@ -8,12 +8,6 @@ function Homepage() {
     <Container className="my-4">
       <Card className="bg-dark">
         <Card.Img bsPrefix src={header_img} alt="Header Image"/>
-        {/* <Card.ImgOverlay className="TransparentBackground">
-          <Card.Title className="TransparentBackground">Langevin HVAC</Card.Title>
-          <Card.Text className="TransparentBackground">
-            For all your heating and venting needs!
-          </Card.Text>
-        </Card.ImgOverlay> */}
       </Card>
       <Container className="mt-4">
         <h3 className="text-center">

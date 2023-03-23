@@ -2,12 +2,12 @@
   /* --secondaryTextColor: #6c757d;
   --linkHoverColor: #322e18; */
 
-  --background: #587291;
-  --otherText: #2F97C1;
   --text: #090b0e;
   --secondaryText: #1CCAD8;
-  --borderHighlight: #15E6CD;
-  --generalHighlight: #0CF574;
+  --background: #587291;
+  --secondaryBackground: #2F97C1;
+  --highlight: #15E6CD;
+  --secondaryHighlight: #0CF574;
 }
 
 * {
@@ -28,7 +28,7 @@
 }
 
 .ButtonCustom:hover {
-  background-color: var(--otherText);
+  background-color: var(--secondaryBackground);
   color: var(--text);
 }
 
@@ -38,15 +38,11 @@
 }
 
 .HoverLink:hover {
-  color: var(--otherText);
+  color: var(--secondaryBackground);
 }
 
-.Card {
-  background-color: var(--otherText);
-}
-
-.TransparentBackground {
-  background-color: transparent;
+.CardBackground {
+  background-color: var(--secondaryBackground);
 }
 
 #ContactUsList {
