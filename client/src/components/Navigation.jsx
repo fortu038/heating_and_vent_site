@@ -18,27 +18,27 @@ function Navigation(props) {
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
               <Nav className="flex-grow-1 justify-content-evenly align-items-center">
-                <Nav.Link as={Link} to="">
+                <Nav.Link as={Link} to="/">
                   <h3 className="HoverLink">
                     Home
                   </h3>
                 </Nav.Link>
-                <Nav.Link as={Link} to="about-us">
+                <Nav.Link as={Link} to="/about-us">
                   <h3 className="HoverLink">
                     About Us
                   </h3>
                 </Nav.Link>
-                <Nav.Link as={Link} to="our-services">
+                <Nav.Link as={Link} to="/our-services">
                   <h3 className="HoverLink">
                     Our Services
                   </h3>
                 </Nav.Link>
-                <Nav.Link as={Link} to="areas-served">
+                <Nav.Link as={Link} to="/areas-served">
                   <h3 className="HoverLink">
                     Areas Served
                   </h3>
                 </Nav.Link>
-                <Nav.Link as={Link} to="contact-us">
+                <Nav.Link as={Link} to="/contact-us">
                   <h3 className="HoverLink">
                     Contact Us
                   </h3>

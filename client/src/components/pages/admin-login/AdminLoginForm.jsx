@@ -39,7 +39,7 @@ function UserLoginForm() {
 
   useEffect(() => {
     if( appState.user ) {
-      window.location.href = "/contact-display";
+      window.location.href = `https://${window.location.hostname}/contact-display`;
     }
   }, [appState]);
 
