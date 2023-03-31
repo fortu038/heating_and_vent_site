@@ -48,7 +48,7 @@ function UserLoginForm() {
       <h5 className="text-center">
         Login:
       </h5>
-      { formMessage.type != "" &&
+      { formMessage.type !== "" &&
         <Alert key={formMessage.type} variant={formMessage.type}>
           {formMessage.msg}
         </Alert>

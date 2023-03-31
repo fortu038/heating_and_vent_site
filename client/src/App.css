@@ -45,6 +45,10 @@
   background-color: var(--secondaryBackground);
 }
 
+.Wrap {
+  width: 100%;
+}
+
 #ContactUsList {
   list-style-type: none;
 }
