@@ -9,7 +9,7 @@ const job_img = require("../../../assets/images/card_placeholder_image.jpg");
 
 function AboutUs() {
   return(
-    <Container>
+    <div className="bgStandard">
       <Navigation />
       <Container className="my-4">
         <Row>
@@ -46,7 +46,7 @@ function AboutUs() {
         
         <ContactUsForm />
       </Container>
-    </Container>
+    </div>
   )
 }
 

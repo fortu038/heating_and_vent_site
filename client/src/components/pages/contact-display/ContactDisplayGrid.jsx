@@ -37,9 +37,13 @@ function ContactDisplayGrid(props) {
   };
 
   return(
-    <Container className="my-4">
-      <Card bg="info">
-        <Card.Header>Contact Name: {contact_data.contactName}</Card.Header>
+    <Container className="my-4 w-50 bgStandard">
+      <Card bg="dark">
+        <Card.Header>
+          <h5 className="CardHeader">
+            Contact Name: {contact_data.contactName}
+          </h5>
+        </Card.Header>
         <Card.Body className="CardBackground">
           <Card.Title className="CardBackground">
             Email: {contact_data.email}

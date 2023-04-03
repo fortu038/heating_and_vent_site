@@ -6,7 +6,7 @@ import Navigation from "../../Navigation";
 
 function ContactUs() {
   return(
-    <Container>
+    <div className="bgStandard">
       <Navigation />
       <Container className="my-4">
           <h3 className="text-center">
@@ -23,7 +23,7 @@ function ContactUs() {
           </div>
           <ContactUsForm />
       </Container>
-    </Container>
+    </div>
   )
 }
 

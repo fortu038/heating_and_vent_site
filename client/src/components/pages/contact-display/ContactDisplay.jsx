@@ -33,7 +33,7 @@ function ContactDisplay(props) {
   };
 
   return(
-    <Container>
+    <div className="bgStandard">
       <Container className="d-flex align-items-center justify-content-evenly">
         <h2>Contacts</h2>
         <Button bsPrefix className="ButtonCustom" type="submit" onClick={handleLogout}>
@@ -46,7 +46,7 @@ function ContactDisplay(props) {
         }
         )}
       </Container>
-    </Container>
+    </div>
   )
 };
 

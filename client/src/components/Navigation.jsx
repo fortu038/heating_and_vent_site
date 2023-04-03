@@ -1,13 +1,13 @@
 import React from 'react';
 import { Container, Navbar, Nav } from 'react-bootstrap';
-import { Link, Outlet } from "react-router-dom";
+import { Link } from "react-router-dom";
 import 'bootstrap/dist/css/bootstrap.css';
 
 const site_name = "Langevin HVAC";
 
 function Navigation(props) {
   return(
-    <Container>
+    <div className="bgNav">
       <Navbar sticky="top" collapseOnSelect expand="lg">
         <Container className="text-center">
           <Navbar.Brand>
@@ -47,9 +47,7 @@ function Navigation(props) {
           </Navbar.Collapse>
         </Container>
       </Navbar>
-
-      <Outlet />
-    </Container>
+    </div>
   )
 }
 

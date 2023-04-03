@@ -6,7 +6,7 @@ import Navigation from "../../Navigation";
 
 function AreasServed() {
   return(
-    <Container>
+    <div className="bgStandard">
       <Navigation />
       <Container className="my-4">
         <Container>
@@ -31,7 +31,7 @@ function AreasServed() {
         
         <ContactUsForm />
       </Container>
-    </Container>
+    </div>
   )
 }
 

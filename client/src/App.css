@@ -1,35 +1,45 @@
 :root {
-  /* --secondaryTextColor: #6c757d;
-  --linkHoverColor: #322e18; */
-
   --text: #090b0e;
   --secondaryText: #1CCAD8;
-  --background: #587291;
   --secondaryBackground: #2F97C1;
   --highlight: #15E6CD;
   --secondaryHighlight: #0CF574;
+
+  --paynesGrey: #587291;
+  --timberwolf: #D7D6D6;
+  --eerieBlack: #1E2019;
+  --federalBlue: #0E0E52;
+  --pennRed: #990000;
+
+
+  --carmine: #96031A;
+  --ghostWhite: #FBFBFF;
+  --platinum: #E5E7E6;
+  --engineeringOrange: #BC2C1A;
+  --byzantium: #832161;
+  --tyrianPurple: #5F1A37;
+  --palatinate: #4C1E4F;
 }
 
 * {
-  background-color: var(--background);
   color: var(--text);
 }
 
-/* Nav {
-  border: 2px solid var(--text);
-  border-radius: 10px
-} */
-
-.ButtonCustom {
-  background-color: var(--text);
-  color: var(--background);
-  border: none;
-  border-radius: 5px;
+html {
+  background-color: var(--timberwolf);
 }
 
-.ButtonCustom:hover {
-  background-color: var(--secondaryBackground);
-  color: var(--text);
+.fade {
+  background-color: transparent;
+  transition: opacity .15s linear;
+}
+
+.bgStandard {
+  background-color: var(--timberwolf);
+}
+
+.bgNav {
+  background-color: var(--paynesGrey);
 }
 
 .HoverLink {
@@ -38,11 +48,31 @@
 }
 
 .HoverLink:hover {
-  color: var(--secondaryBackground);
+  color: var(--pennRed);
+}
+
+.OurServicesImg {
+  height: 18rem;
+}
+
+.ButtonCustom {
+  background-color: var(--text);
+  color: var(--paynesGrey);
+  border: none;
+  border-radius: 5px;
+}
+
+.ButtonCustom:hover {
+  background-color: var(--paynesGrey);
+  color: var(--text);
 }
 
 .CardBackground {
-  background-color: var(--secondaryBackground);
+  background-color: var(--paynesGrey);
+}
+
+.CardHeader {
+  color: var(--paynesGrey);
 }
 
 .Wrap {
@@ -51,9 +81,4 @@
 
 #ContactUsList {
   list-style-type: none;
-}
-
-.fade {
-  background-color: transparent;
-  transition: opacity .15s linear;
 }
