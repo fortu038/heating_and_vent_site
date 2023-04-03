@@ -14,9 +14,26 @@ function ContactDisplayGrid(props) {
     setShow(false);
   };
 
-  function handleContactDelete() {
-    console.log("deleted!")
+  async function handleContactDelete() {
+    console.log("deleted!");
+
+    await fetch(`/api/contact/${contact_data._id}`, {
+      method: "DELETE",
+    })
+      .then(function(fetch_response) 
+        {
+          console.log(fetch_response.result);
+        }
+      )
+      .catch(function(err) 
+      {
+        console.log(err);
+      })
+
     setShow(false);
+
+    window.location.reload();
+    return false;
   };
 
   return(

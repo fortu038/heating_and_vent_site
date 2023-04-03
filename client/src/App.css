@@ -52,3 +52,8 @@
 #ContactUsList {
   list-style-type: none;
 }
+
+.fade {
+  background-color: transparent;
+  transition: opacity .15s linear;
+}

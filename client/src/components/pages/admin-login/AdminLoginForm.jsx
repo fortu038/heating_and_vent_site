@@ -44,7 +44,7 @@ function UserLoginForm() {
   }, [appState]);
 
   return (
-    <Container className="my-4 w-25">
+    <Container className="my-4 w-50">
       <h5 className="text-center">
         Login:
       </h5>
