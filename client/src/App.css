@@ -1,24 +1,10 @@
 :root {
   --text: #090b0e;
-  --secondaryText: #1CCAD8;
-  --secondaryBackground: #2F97C1;
-  --highlight: #15E6CD;
-  --secondaryHighlight: #0CF574;
-
   --paynesGrey: #587291;
   --timberwolf: #D7D6D6;
   --eerieBlack: #1E2019;
   --federalBlue: #0E0E52;
   --pennRed: #990000;
-
-
-  --carmine: #96031A;
-  --ghostWhite: #FBFBFF;
-  --platinum: #E5E7E6;
-  --engineeringOrange: #BC2C1A;
-  --byzantium: #832161;
-  --tyrianPurple: #5F1A37;
-  --palatinate: #4C1E4F;
 }
 
 * {
