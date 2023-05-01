@@ -3,13 +3,13 @@ import { Container, Navbar, Nav } from 'react-bootstrap';
 import { Link } from "react-router-dom";
 import 'bootstrap/dist/css/bootstrap.css';
 
-const site_name = "Langevin HVAC";
+const site_name = "Gohper State Mechanical";
 
 function Navigation(props) {
   return(
     <div className="bgNav">
       <Navbar sticky="top" collapseOnSelect expand="lg">
-        <Container className="text-center">
+        <Container className="d-flex justify-content-center">
           <Navbar.Brand>
             <h1>
               {site_name}
