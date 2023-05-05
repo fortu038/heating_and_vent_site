@@ -37,7 +37,7 @@ function ContactDisplayGrid(props) {
   };
 
   return(
-    <Container className="my-4 w-50 bgStandard">
+    <Container className="my-4 w-75 bgStandard">
       <Card bg="dark">
         <Card.Header>
           <h5 className="CardHeader">

@@ -55,7 +55,7 @@ function ContactUsForm(props) {
   };
 
   return (
-    <Container className="my-4 w-50">
+    <Container className="my-4 w-75">
       <h5 className="text-center">
         Any Questions? Send Us a Message and We'll Get Back to You.
       </h5>
