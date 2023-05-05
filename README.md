@@ -16,4 +16,4 @@ The created website acts as company website for an HVAC company.
 
 GitHub Repo Link: https://github.com/fortu038/heating_and_vent_site
 
-Live Site Link: https://langevin-hvac.herokuapp.com/
+Live Site Link: https://gopherstatemechanical.herokuapp.com/
