@@ -4,7 +4,7 @@ import { Container, Row, Col } from 'react-bootstrap';
 import ContactUsForm from '../contact-us/ContactUsForm';
 import Navigation from "../../Navigation";
 
-const worker_img = require("../../../assets/images/worker_placeholder.jpg");
+const worker_img = require("../../../assets/images/hvac_worker_image.jpg");
 const job_img = require("../../../assets/images/on_the_job_placeholder.jpg");
 
 function AboutUs() {
@@ -21,7 +21,7 @@ function AboutUs() {
         </Row>
         <Row>
           <Col className="d-flex justify-content-center mt-4">
-            <img src={worker_img} alt="A placeholder for the founder of Lagevin Heating and Venting." />
+            <img className="SidelineImg" src={worker_img} alt="A placeholder for the founder of Lagevin Heating and Venting." />
           </Col>
         </Row>
         <Row>
