@@ -65,6 +65,10 @@ html {
   width: 100%;
 }
 
+.SidelineImg {
+  width: 100%;
+}
+
 #ContactUsList {
   list-style-type: none;
 }
