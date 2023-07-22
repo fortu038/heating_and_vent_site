@@ -28,7 +28,7 @@ function OurServices() {
           </Col>
           <Col>
             <Card bg="dark">
-              <Card.Img className="bg-white OurServicesImg" src={maintenance_image} alt="Card image" />
+              <Card.Img className="bg-white OurServicesImg" src={maintenance_image} alt="An employee doing HVAC maintenance" />
               <Card.Body className="CardBackground">
                 <Card.Title className="CardBackground">General HVAC maintenance</Card.Title>
                 <Card.Text className="CardBackground">
@@ -39,7 +39,7 @@ function OurServices() {
           </Col>
           <Col>
             <Card bg="dark">
-              <Card.Img className="bg-white OurServicesImg" src={install_image} alt="Card image" />
+              <Card.Img className="bg-white OurServicesImg" src={install_image} alt="An employee installing HVAC" />
               <Card.Body className="CardBackground">
                 <Card.Title className="CardBackground">General HVAC Install</Card.Title>
                 <Card.Text className="CardBackground">
@@ -50,11 +50,11 @@ function OurServices() {
           </Col>
           <Col>
             <Card bg="dark">
-              <Card.Img className="bg-white OurServicesImg" src={general_hvac_image} alt="Card image" />
+              <Card.Img className="bg-white OurServicesImg" src={general_hvac_image} alt="HVAC system diagram" />
               <Card.Body className="CardBackground">
-                <Card.Title className="CardBackground">This is one of our services</Card.Title>
+                <Card.Title className="CardBackground">Ask about our other services!</Card.Title>
                 <Card.Text className="CardBackground">
-                  Service description
+                  Contact us and we'll get back to you!
                 </Card.Text>
               </Card.Body>
             </Card>
