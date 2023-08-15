@@ -3,7 +3,7 @@ import { Container, Navbar, Nav } from 'react-bootstrap';
 import { Link } from "react-router-dom";
 import 'bootstrap/dist/css/bootstrap.css';
 
-const site_name = "Gohper State Mechanical";
+const site_name = "Gopher State Mechanical";
 
 function Navigation(props) {
   return(
