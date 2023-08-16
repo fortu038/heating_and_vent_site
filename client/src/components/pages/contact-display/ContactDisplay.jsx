@@ -150,7 +150,7 @@ function ContactDisplay(props) {
       </Container>
 
       <Modal show={show} onHide={handleModalClose}>
-        <Modal.Header>
+        <Modal.Header closeButton>
           <Modal.Title>Add New User</Modal.Title>
         </Modal.Header>
         { alertMessage.state === "success" &&
