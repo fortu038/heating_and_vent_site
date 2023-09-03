@@ -74,9 +74,9 @@ const createUser = async (req, res) => {
 };
 
 const authenticateLogin = async (req, res) => {
-  const foundUser = await User.findOne({ username: req.body.username });
+  const foundUser = await User.findOne({ username: req.body.username, email: req.body.email });
   if( !foundUser ) {
-    return res.status(401).json({ message: "Invalid username" });
+    return res.status(401).json({ message: "Invalid username or email" });
   }
 
   const isValid = await bcrypt.compare(req.body.password, foundUser.password);
