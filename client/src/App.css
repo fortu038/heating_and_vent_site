@@ -1,16 +1,26 @@
 :root {
   --text: #090b0e;
   --paynesGrey: #587291;
-  --timberwolf: #D7D6D6;
   --eerieBlack: #1E2019;
   --federalBlue: #0E0E52;
   --pennRed: #990000;
+
+  --maroon: #800000;
+  --davysGrey: #595959;
+  --timberwolf: #D7D6D6;
+  /* --russianViolet: #0D0630; */
+  --russianPurple: #38023B;
+  /* --satinSheenGold: #BB9F06; */
+  --metallicGold: #D4AF37;
+  --ochre: #D17A22;
 }
 
+/* This sets the default text color */
 * {
   color: var(--text);
 }
 
+/* Default site background color when no color is provided */
 html {
   background-color: var(--timberwolf);
 }
@@ -20,27 +30,33 @@ html {
   transition: opacity .15s linear;
 }
 
+/* Standard site background */
 .bgStandard {
   background-color: var(--timberwolf);
 }
 
+/* Navigation bar background color */
 .bgNav {
   background-color: var(--paynesGrey);
 }
 
+/* The text color of a link that has a hover effect */
 .HoverLink {
   text-decoration: none;
   color: var(--text);
 }
 
+/* The text color a link with a hover effect should turn when hovered over */
 .HoverLink:hover {
   color: var(--pennRed);
 }
 
+/* Sizing for images specifically on the Our Services page */
 .OurServicesImg {
   height: 18rem;
 }
 
+/* Formatting for the custom button design used throughout the site */
 .ButtonCustom {
   background-color: var(--text);
   color: var(--paynesGrey);
@@ -48,27 +64,33 @@ html {
   border-radius: 5px;
 }
 
+/* On hover effects for the custom button design used throughout the site */
 .ButtonCustom:hover {
   background-color: var(--paynesGrey);
   color: var(--text);
 }
 
+/* Backgroud color used for the cards on the Our Services page */
 .CardBackground {
   background-color: var(--paynesGrey);
 }
 
+/* Text color used for the header on the contact listings in Contact Display */
 .CardHeader {
   color: var(--paynesGrey);
 }
 
+/* Used to force the text on the Homepage to expand to a larger size on the page */
 .Wrap {
   width: 100%;
 }
 
+/* Used to force the images on the Our Services to expand to a larger size on the page */
 .SidelineImg {
   width: 100%;
 }
 
+/* Removes all styling from the location list on the Contact Us page */
 #ContactUsList {
   list-style-type: none;
 }
