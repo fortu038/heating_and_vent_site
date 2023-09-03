@@ -5,6 +5,18 @@ import 'bootstrap/dist/css/bootstrap.css';
 
 const site_name = "Gopher State Mechanical";
 
+// This is the navigation or "nav" bar of the site. The navbar will compress down on mobile or small screens
+
+// If a new page is created it won't be automatically added to the navbar. A new navbar link can be added using the following HTML:
+/* 
+  <Nav.Link as={Link} to="/path_name">
+    <h3 className="HoverLink">
+      page_name
+    </h3>
+  </Nav.Link>
+*/
+// Where path_name is the path name listed in Routing.jsx and page_name is the desired name of the page
+
 function Navigation(props) {
   return(
     <div className="bgNav">
