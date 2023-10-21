@@ -4,7 +4,11 @@ import { Container, Button, Form, Alert } from 'react-bootstrap';
 import Cookie from "js-cookie";
 import { useAppContext } from "../../utils/AppContext";
 
+// This file handles the frontend and backend of the admin login form
+
 function UserLoginForm() {
+  // Backend Stuff
+  // -------------
   const { appState, setAppState } = useAppContext();
 
   const [ loginCreds, setLoginCreds ] = useState({ username: "", email: "", password: "" });
@@ -43,7 +47,10 @@ function UserLoginForm() {
     }
   }, [appState]);
 
+  // Frontend Stuff
+  // --------------
   return (
+    // The below HTML determines the layout of the admin login form
     <Container className="my-4 w-50 bgStandard">
       <h5 className="text-center">
         Login:

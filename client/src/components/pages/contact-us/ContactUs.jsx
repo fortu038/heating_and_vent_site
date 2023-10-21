@@ -4,8 +4,12 @@ import { Container } from 'react-bootstrap';
 import ContactUsForm from './ContactUsForm';
 import Navigation from "../../Navigation";
 
+// This file handles the layout/display of the Contact Us page
+// The layout of the contact us form can be modified in the file ContactUsForm.jsx
+
 function ContactUs() {
   return(
+    // The below HTML determines the layout of the Contact Us page
     <div className="bgStandard">
       <Navigation />
       <Container className="my-4">

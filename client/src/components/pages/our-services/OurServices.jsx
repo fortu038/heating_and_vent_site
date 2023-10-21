@@ -4,6 +4,7 @@ import { Container, Card, Row, Col } from 'react-bootstrap';
 import ContactUsForm from '../contact-us/ContactUsForm';
 import Navigation from "../../Navigation";
 
+// The images used on the our services page
 const hot_water_heater_image = require("../../../assets/images/hot_water_heater_image.jpg");
 const maintenance_image = require("../../../assets/images/hvac_thumbs_up.jpg");
 const install_image = require("../../../assets/images/hvac_installation_cartoon.png");
@@ -11,6 +12,7 @@ const general_hvac_image = require("../../../assets/images/hvac_system_diagram.j
 
 function OurServices() {
   return(
+    // The below HTML determines the layout of the Our Services page
     <div className="bgStandard">
       <Navigation />
       <Container className="my-4">

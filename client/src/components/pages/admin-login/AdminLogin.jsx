@@ -3,6 +3,9 @@ import { Container } from "react-bootstrap";
 
 import AdminLoginForm from "./AdminLoginForm";
 
+// This file handles the frontend of the Admin Login page
+// The admin login form can be found and modified in the file AdminLoginForm.jsx
+
 function AdminLogin() {
   return(
     <div className="bgStandard">

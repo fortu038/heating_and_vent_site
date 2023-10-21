@@ -10,6 +10,8 @@ import OurServices from "./pages/our-services/OurServices";
 import AdminLogin from "./pages/admin-login/AdminLogin";
 import ContactDisplay from "./pages/contact-display/ContactDisplay";
 
+// This file handles the routing for the site, telling which paths (ex: "/about-us") lead to which pages
+// This file shouldn't be modified unless you're adding new pages
 
 function Routing(props) {
   const { appState } = useAppContext();

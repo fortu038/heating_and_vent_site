@@ -1,7 +1,11 @@
 import React, { useState } from 'react';
 import { Container, Card, Button, Modal } from 'react-bootstrap';
 
+// This file handles the frontend and backend of an individual contact
+
 function ContactDisplayGrid(props) {
+  // Backend Stuff
+  // -------------
   const contact_data = props.single_contact;
 
   const [show, setShow] = useState(false);
@@ -36,7 +40,10 @@ function ContactDisplayGrid(props) {
     return false;
   };
 
+  // Frontend Stuff
+  // --------------
   return(
+    // The below HTML determines the layout of an individual contact
     <Container className="my-4 w-75 bgStandard">
       <Card bg="dark">
         <Card.Header>

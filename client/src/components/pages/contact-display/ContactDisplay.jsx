@@ -6,7 +6,12 @@ import { useAppContext } from "../../utils/AppContext";
 
 import ContactDisplayGrid from "./ContactDisplayGrid";
 
+// This file handles the frontend and backend of the Contacts display page
+// The layout of the individual contacts can be modified in the file ContactDisplayGrid.jsx
+
 function ContactDisplay(props) {
+  // Backend Stuff
+  // -------------
   const { appState, setAppState } = useAppContext();
 
   const [data, setData] = useState(null);
@@ -43,7 +48,6 @@ function ContactDisplay(props) {
     })
     const lookupResult = await lookupCheck.json();
 
-    // If the login was good, save the returned token as a cookie
     if( lookupResult.result === "success" ){
       Cookie.remove("auth-token", lookupResult.token)
       setAppState({...appState, user: lookupResult.user})
@@ -121,7 +125,11 @@ function ContactDisplay(props) {
     setShow(false);
   };
 
+  // Frontend Stuff
+  // --------------
   return(
+    // The below HTML determines the layout of the Contacts Display page
+    // The layout on individual contacts are handled in the file ContactDisplayGrid.jsx
     <div className="bgStandard">
       <Container>
         <Row>

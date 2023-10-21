@@ -1,7 +1,11 @@
 import React, { useState } from 'react';
 import { Container, Button, Form, Alert } from 'react-bootstrap';
 
+// This file handles the layout/display of the contact us form that appears on various pages
+
 function ContactUsForm(props) {
+  // Backend Stuff
+  // -------------
   const [emailData, setEmailData] = useState({
     contactName: "",
     email: "",
@@ -54,7 +58,10 @@ function ContactUsForm(props) {
       )
   };
 
+  // Frontend Stuff
+  // --------------
   return (
+    // The below HTML determines the layout of the contact us form
     <Container className="my-4 w-75">
       <h5 className="text-center">
         Any Questions? Send Us a Message and We'll Get Back to You.
